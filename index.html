@@ -12,12 +12,13 @@
 <body>
 
     <div id="head-area">
+
         <div id="header">
             <h1>Gary's KeyCode Generator</h1>
         </div>
 
         <div id="text-entry">
-            <input type="text" id="text-box" onkeypress="keycode()">
+            <input type="text" size="20" id="text-box" onkeypress="keycode()">
 
         </div>
 
@@ -27,7 +28,26 @@
 
 
     </div>
-    <script src="script.jss"></script>
+
+    <div id="results">
+        <div id="event-box">
+            <p id="event-head">event.key</p>
+            <p id="key-result">keyStroke</p>
+        </div>
+
+        <div id="event-box">
+            <p id="event-head">event.code</p>
+            <p id="event-result">key</p>
+        </div>
+
+        <div id="event-box">
+            <p id="event-head">event.which</p>
+            <p id="event-code">keyCode</p>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
 
 </body>
 
